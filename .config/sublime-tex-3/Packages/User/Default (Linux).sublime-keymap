@@ -1,0 +1,4 @@
+[
+    {"keys": ["ctrl+shift+u"], "command": "sql_upper"},
+    {"keys": ["ctrl+shift+h"], "command": "find_placeholders"}
+]

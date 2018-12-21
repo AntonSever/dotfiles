@@ -1,0 +1,5 @@
+{
+    "cmd": ["python3 -m py_compile $file && flake8 --max-line-length=100 $file"],
+    "selector": "source.python",
+    "shell": true,
+}
