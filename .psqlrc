@@ -1,0 +1,17 @@
+\set PROMPT1 '%n@%M:%> %/ %`date +'%F'` %`date +'%T'`> '
+\set COMP_KEYWORD_CASE upper
+\set HISTCONTROL ignoredups
+\set HISTFILE ~/.psql_history- :DBNAME
+\set HISTSIZE 2000
+\set VERBOSITY verbose
+
+\pset border 2
+\pset columns 160
+\pset format wrapped
+\pset linestyle unicode
+\pset null '∅'
+\pset numericlocale off
+
+\timing on
+
+\x auto
