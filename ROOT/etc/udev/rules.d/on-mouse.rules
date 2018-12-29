@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="input", ATTRS{name}=="Logitech USB Receiver", RUN+="/bin/bash /root/on-mouse.sh"
+ACTION=="remove", SUBSYSTEM=="input", ATTRS{name}=="Logitech USB Receiver", RUN+="/bin/bash /root/on-mouse.sh"
